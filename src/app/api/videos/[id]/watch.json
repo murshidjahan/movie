@@ -1,0 +1,29 @@
+{
+    "id": "123",
+    "title": "Some Show",
+    "videoUrl": "https://example.com/video.mp4", // if a movie or single video
+    "seasons": [
+      {
+        "id": "season1",
+        "name": "Season 1",
+        "episodes": [
+          {
+            "id": "ep1",
+            "name": "Episode 1",
+            "videoUrl": "https://example.com/s1ep1.mp4"
+          },
+          {
+            "id": "ep2",
+            "name": "Episode 2",
+            "videoUrl": "https://example.com/s1ep2.mp4"
+          }
+        ]
+      },
+      {
+        "id": "season2",
+        "name": "Season 2",
+        "episodes": [ /* ... */ ]
+      }
+    ]
+  }
+  
